@@ -1,0 +1,23 @@
+{
+  "name": "frontend-project-lvl1",
+  "name": "brain-games.js",
+  "bin": {
+        "brain-games": "./src/bin/brain-games.js"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karen9999/frontend-project-lvl1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karen9999/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/karen9999/frontend-project-lvl1#readme",
+  "description": ""
+}
