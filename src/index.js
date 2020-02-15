@@ -1,31 +1,23 @@
-import readlineSync from 'readline-sync';
-import isEven from './even.js';
-import random from './random.js';
+import readlineSync from "readline-sync";
 
 
-const startGame = () => {
+const startGame = (condition, expressionAndAnswer) => {
+  let count = 3;
+  const name = readlineSync.question("May I have your name?");
+  console.log(`Hello, ${name}`);
+  console.log(condition);
 
-   
-   let count = 3;
-   const name = readlineSync.question('May I have your name?');
-    console.log(`Hello, ${name}`);
-    const condition = 'Answer "yes" if the number is even, otherwise answer "no".';
-    console.log(condition);
-	for (let i = 0; i < 3; i += 1 ) {
-  const currentNumber = random(1, 99);
-  console.log('Question:' + currentNumber);
-  const answer = readlineSync.question('You answer:');
-    if (answer === isEven(currentNumber)) {
-         console.log('Correct');
-    } 
-    else  {
-    return `"${answer}" is wrong answer ;(. Correct answer was "${isEven(currentNumber)}".\nLet's try again, ${name}!`;
+  for (let i = 0; i < 3; i += 1) {
+    const exAndAnsw = expressionAndAnswer();
+    console.log("Question:" + exAndAnsw[0]);
+    const answer = readlineSync.question("You answer:");
+    const correctAnsw = exAndAnsw[1];
+    if (answer === String(correctAnsw)) {
+      console.log("Correct!");
+    } else {
+      return `"${answer}" is wrong answer ;(. Correct answer was "${correctAnsw}".\nLet's try again, ${name}!`;
     }
-      }
-     return `Congratulations, ${name}!`;
-    };
-
-
-
-
+  }
+  return `Congratulations, ${name}!`;
+};
 export default startGame;
