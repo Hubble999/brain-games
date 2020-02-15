@@ -2,12 +2,12 @@ import readlineSync from "readline-sync";
 
 
 const startGame = (condition, expressionAndAnswer) => {
-  let count = 3;
+  const rounds = 3;
   const name = readlineSync.question("May I have your name?");
   console.log(`Hello, ${name}`);
   console.log(condition);
 
-  for (let i = 0; i < 3; i += 1) {
+  for (let i = 0; i < rounds; i += 1) {
     const exAndAnsw = expressionAndAnswer();
     console.log("Question:" + exAndAnsw[0]);
     const answer = readlineSync.question("You answer:");
