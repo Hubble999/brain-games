@@ -7,24 +7,23 @@ My first project
 
 Brain-even
 
-<a href="https://asciinema.org/a/bqbmJaBVBD27PuiXYvFpJJA1q" target="_blank"><img src="https://asciinema.org/a/bqbmJaBVBD27PuiXYvFpJJA1q.svg" /></a>
+<a href="https://asciinema.org/a/ZAFH5MrAzPKpSodr2HTz3rzCN" target="_blank"><img src="https://asciinema.org/a/ZAFH5MrAzPKpSodr2HTz3rzCN.svg" /></a>
 
 Brain-calc
 
-<a href="https://asciinema.org/a/XOlwxZuBMVq1kjd61heb4gtzf" target="_blank"><img src="https://asciinema.org/a/XOlwxZuBMVq1kjd61heb4gtzf.svg" /></a>
+<a href="https://asciinema.org/a/gxJ6yw63HrtoNEO7onwPWi5AS" target="_blank"><img src="https://asciinema.org/a/gxJ6yw63HrtoNEO7onwPWi5AS.svg" /></a>
 
 
 Brain-progression
 
-<a href="https://asciinema.org/a/WRCekNp0KDAI5yTeQSJJGcTXZ" target="_blank"><img src="https://asciinema.org/a/WRCekNp0KDAI5yTeQSJJGcTXZ.svg" /></a>
+<a href="https://asciinema.org/a/kEMBMDbDX0Rs6oSTymrd3nunI" target="_blank"><img src="https://asciinema.org/a/kEMBMDbDX0Rs6oSTymrd3nunI.svg" /></a>
 
 
 
 Brain-gcd
 
-<a href="https://asciinema.org/a/gTgm9W7MJmqnj8MyUIHGoUIGy" target="_blank"><img 
-src="https://asciinema.org/a/gTgm9W7MJmqnj8MyUIHGoUIGy.svg" /></a>
+<a href="https://asciinema.org/a/GVLnHDaoCtJbhRGSgH9p88Yxk" target="_blank"><img src="https://asciinema.org/a/GVLnHDaoCtJbhRGSgH9p88Yxk.svg" /></a>
 
 Brain-prime
 
-<a href="https://asciinema.org/a/2vrukR6VCcK8XKTVZ5nBJvfc0" target="_blank"><img src="https://asciinema.org/a/2vrukR6VCcK8XKTVZ5nBJvfc0.svg" /></a>
+<a href="https://asciinema.org/a/Mgbvd6duwlUtGDjf44JyiWb24" target="_blank"><img src="https://asciinema.org/a/Mgbvd6duwlUtGDjf44JyiWb24.svg" /></a>
