@@ -1,14 +1,14 @@
 <h1>Brain-games</h1>
 
 
-<h2>make install</h2>
+<h2>**make install**</h2>
 
 <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
 
 
 [![Build Status](https://travis-ci.com/travis-ci/travis-web.svg?branch=master)](https://travis-ci.com/travis-ci/travis-web)
 
-**Brain-even
+**Brain-even**
 
 <a href="https://asciinema.org/a/ZAFH5MrAzPKpSodr2HTz3rzCN" target="_blank"><img src="https://asciinema.org/a/ZAFH5MrAzPKpSodr2HTz3rzCN.svg" /></a>
 
