@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
-import {startGame, generateExpressionAndCorrectAnswer, condition} from '../even.js';
+import {generateExpressionAndCorrectAnswer, condition, startGame} from '../even.js';
 
-console.log(startGame(condition, generateExpressionAndCorrectAnswer, condition));
+console.log(startGame(condition, generateExpressionAndCorrectAnswer));
+
+

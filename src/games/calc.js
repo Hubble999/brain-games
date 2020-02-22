@@ -12,16 +12,17 @@ const generateExpressionAndCorrectAnswer = () => {
   const randomSym = sym[random(0, 2)];
   const expression = `${left} ${randomSym} ${right}`;
   let correct;
-  if (randomSym === "-") {
+switch (randomSym) {
+  case '-':
     correct = left - right;
-  }
-  if (randomSym === "+") {
+    break;
+  case '+':
     correct = left + right;
-  }
-  if (randomSym === "*") {
+    break;
+  case '*':
     correct = left * right;
-  }
-  return [expression, correct];
+    break;
+ };
 };
 
 export {generateExpressionAndCorrectAnswer, startGame, condition};
