@@ -3,14 +3,14 @@ import random from "./random.js";
 
 const isPrime = num => {
   if (num === 1) {
-    return "no";
+    return true;
   }
   for (let i = 2; i < num; i += 1) {
     if (num % i === 0) {
-      return "no";
+      return false;
     }
   }
-  return "yes";
+  return true;
 };
 
 const condition =
@@ -18,7 +18,7 @@ const condition =
 
 const generateExpressionAndCorrectAnswer = () => {
   const answer = random(1, 20);
-  const correct = isPrime(answer);
+  const correct = isPrime(answer) ? 'yes' : 'no';
   return [answer, correct];
 };
 
