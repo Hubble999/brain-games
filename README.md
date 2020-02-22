@@ -8,22 +8,22 @@
 
 [![Build Status](https://travis-ci.com/travis-ci/travis-web.svg?branch=master)](https://travis-ci.com/travis-ci/travis-web)
 
-**Brain-even**
+    **Brain-even**
 
 <a href="https://asciinema.org/a/ZAFH5MrAzPKpSodr2HTz3rzCN" target="_blank"><img src="https://asciinema.org/a/ZAFH5MrAzPKpSodr2HTz3rzCN.svg" /></a>
 
-**Brain-calc
+    **Brain-calc**
 
 <a href="https://asciinema.org/a/gxJ6yw63HrtoNEO7onwPWi5AS" target="_blank"><img src="https://asciinema.org/a/gxJ6yw63HrtoNEO7onwPWi5AS.svg" /></a>
 
 
-Brain-progression
+    **Brain-progression**
 
 <a href="https://asciinema.org/a/kEMBMDbDX0Rs6oSTymrd3nunI" target="_blank"><img src="https://asciinema.org/a/kEMBMDbDX0Rs6oSTymrd3nunI.svg" /></a>
 
 
 
-Brain-gcd
+     **Brain-gcd**
 
 <a href="https://asciinema.org/a/GVLnHDaoCtJbhRGSgH9p88Yxk" target="_blank"><img src="https://asciinema.org/a/GVLnHDaoCtJbhRGSgH9p88Yxk.svg" /></a>
 
