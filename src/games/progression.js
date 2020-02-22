@@ -1,4 +1,4 @@
-import startGame from ".";
+import startGame from "..";
 import random from "./random.js";
 
 const condition = "What number is missing in the progression?";
@@ -18,8 +18,10 @@ const generateExpressionAndCorrectAnswer = () => {
       correct = expressionArr[i - 1] + 2;
     }
   }
-  const expression = expressionArr.join(" ");
-  return [expression, correct];
+  const answer = expressionArr.join(" ");
+  return [answer, correct];
 };
-generateExpressionAndCorrectAnswer();
-export { generateExpressionAndCorrectAnswer, startGame, condition };
+const run = () => {
+  console.log(startGame(condition, generateExpressionAndCorrectAnswer));
+};
+export default run;

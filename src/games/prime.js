@@ -1,4 +1,4 @@
-import startGame from ".";
+import startGame from "..";
 import random from "./random.js";
 
 const isPrime = num => {
@@ -17,9 +17,13 @@ const condition =
   'Answer "yes" if given number is prime. Otherwise answer "no".';
 
 const generateExpressionAndCorrectAnswer = () => {
-  const randomNum = random(1, 20);
-  const correct = isPrime(randomNum);
-  return [randomNum, correct];
+  const answer = random(1, 20);
+  const correct = isPrime(answer);
+  return [answer, correct];
 };
 
-export { startGame, generateExpressionAndCorrectAnswer, condition };
+const run = () => {
+  console.log(startGame(condition, generateExpressionAndCorrectAnswer));
+};
+
+export default run;
