@@ -1,4 +1,4 @@
- #Brain-games
+ _Brain-games_
 
 $ make install
 
