@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import run from "../games/prime.js";
+import run from "../games/gcd.js";
 
 
 run();
