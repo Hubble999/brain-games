@@ -1,30 +1,30 @@
-import startGame from "..";
+import playGame from "..";
 import random from "./random.js";
 
 const condition = "What is the result of the expression?";
-const symbol = "+-*";
+const signs = "+-*";
 
 const generateQuestionAndCorrectAnswer = () => {
   const left = random(1, 20);
   const right = random(1, 20);
-  const randomSymbol = symbol[random(0, symbol.length - 1)];
-  const answer = `${left} ${randomSym} ${right}`;
-  let correct;
-  switch (randomSymbol) {
+  const randomSigns = signs[random(0, sings.length - 1)];
+  const question = `${left} ${randomSings} ${right}`;
+  let correctAnswer;
+  switch (randomSigns) {
     case "-":
-      correct = left - right;
+      correctAnswer = left - right;
       break;
     case "+":
-      correct = left + right;
+      correctAnswer = left + right;
       break;
     case "*":
-      correct = left * right;
+      correctAnswer = left * right;
       break;
   }
-  return [answer, correct];
+  return [question, correctAnswer];
 };
 
 const run = () => {
-  startGame(condition, generateQuestionAndCorrectAnswer);
+  playGame(condition, generateQuestionAndCorrectAnswer);
 };
 export default run;

@@ -2,5 +2,4 @@
 
 
 import run from "../games/progression.js";
-
 run();
