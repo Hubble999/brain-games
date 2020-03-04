@@ -14,8 +14,7 @@
 
     $ Brain-calc
 
-<a href="https://asciinema.org/a/gxJ6yw63HrtoNEO7onwPWi5AS" target="_blank"><img src="https://asciinema.org/a/gxJ6yw63HrtoNEO7onwPWi5AS.svg" /></a>
-
+<a href="https://asciinema.org/a/cjixkHITSVfEKuZl4l4Tm6OBj" target="_blank"><img src="https://asciinema.org/a/cjixkHITSVfEKuZl4l4Tm6OBj.svg" /></a>
 
     $ brain-progression
 
