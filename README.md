@@ -22,7 +22,7 @@
 
     $ brain-gcd
 
-<a href="https://asciinema.org/a/GVLnHDaoCtJbhRGSgH9p88Yxk" target="_blank"><img src="https://asciinema.org/a/GVLnHDaoCtJbhRGSgH9p88Yxk.svg" /></a>
+<a href="https://asciinema.org/a/F3cr1Z6vCwoVa5gLClNCqJyXj" target="_blank"><img src="https://asciinema.org/a/F3cr1Z6vCwoVa5gLClNCqJyXj.svg" /></a>
 
     $ brain-prime
 
