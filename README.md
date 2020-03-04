@@ -3,7 +3,7 @@
 
   <h2>$ make install</h2>
 
-43af7697c012bd6555f43693cb8296d267204516907b234478195296547ca16a
+<a href="https://codeclimate.com/github/karen9999/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/8538200fb1f0300ee051/maintainability" /></a>
 
 
 [![Build Status](https://travis-ci.com/travis-ci/travis-web.svg?branch=master)](https://travis-ci.com/travis-ci/travis-web)
