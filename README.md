@@ -10,7 +10,7 @@
 
     $ Brain-even
 
-<a href="https://asciinema.org/a/ZAFH5MrAzPKpSodr2HTz3rzCN" target="_blank"><img src="https://asciinema.org/a/ZAFH5MrAzPKpSodr2HTz3rzCN.svg" /></a>
+<a href="https://asciinema.org/a/orESBbH0VsyRSpJKn0rOTvzW2" target="_blank"><img src="https://asciinema.org/a/orESBbH0VsyRSpJKn0rOTvzW2.svg" /></a>
 
     $ Brain-calc
 
