@@ -3,7 +3,7 @@
 
   <h2>$ make install</h2>
 
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+43af7697c012bd6555f43693cb8296d267204516907b234478195296547ca16a
 
 
 [![Build Status](https://travis-ci.com/travis-ci/travis-web.svg?branch=master)](https://travis-ci.com/travis-ci/travis-web)
