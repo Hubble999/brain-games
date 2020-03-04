@@ -28,4 +28,4 @@
 
     $ brain-prime
 
-<a href="https://asciinema.org/a/Mgbvd6duwlUtGDjf44JyiWb24" target="_blank"><img src="https://asciinema.org/a/Mgbvd6duwlUtGDjf44JyiWb24.svg" /></a>
+<a href="https://asciinema.org/a/691iyR9QpnRqpoKFxXEw48V9Y" target="_blank"><img src="https://asciinema.org/a/691iyR9QpnRqpoKFxXEw48V9Y.svg" /></a>
