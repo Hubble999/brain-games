@@ -1,5 +1,5 @@
 import playGame from "..";
-import random from "./random.js";
+import random from "../random.js";
 
 const isPrime = num => {
   if (num <= 1) {
@@ -18,7 +18,7 @@ const condition =
 
 const generateQuestionAndCorrectAnswer = () => {
   const question = random(1, 20);
-  const correctAnswer = isPrime(answer) ? "yes" : "no";
+  const correctAnswer = isPrime(question) ? "yes" : "no";
   return [question, correctAnswer];
 };
 

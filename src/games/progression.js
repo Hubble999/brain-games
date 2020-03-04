@@ -17,7 +17,7 @@ const generateQuestionAndCorrectAnswer = () => {
   const correctAnswer = stepProgression * hideNumIndex + startNum;
 
   const question = expressionArr.join(" ");
-  return [question, correctAnswer];
+  return [question, String(correctAnswer)];
 };
 const run = () => {
   playGame(condition, generateQuestionAndCorrectAnswer);

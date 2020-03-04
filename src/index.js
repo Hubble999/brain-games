@@ -1,16 +1,17 @@
 import readlineSync from "readline-sync";
 
+const roundsCount = 3;
+
 const playGame = (condition, questionAndAnswer) => {
-  const roundsCount = 3;
   const name = readlineSync.question("May I have your name?");
   console.log(`Hello, ${name}`);
   console.log(condition);
 
   for (let i = 0; i < roundsCount; i += 1) {
     const [getQuestion, correctAnswer] = questionAndAnswer();
-    console.log("Question:" + getQuestion);
+    console.log(`Question: ${getQuestion}`);
     const answer = readlineSync.question("You answer:");
-    if (answer === String(correctAnswer)) {
+    if (answer === correctAnswer) {
       console.log("Correct!");
     } else {
       const wrongAnswer = console.log(
@@ -19,7 +20,6 @@ const playGame = (condition, questionAndAnswer) => {
       return wrongAnswer;
     }
   }
-  const congratulations = console.log(`Congratulations, ${name}!`);
-  return congratulations;
+  console.log(`Congratulations, ${name}!`);
 };
 export default playGame;

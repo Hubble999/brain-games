@@ -1,5 +1,5 @@
 import playGame from "..";
-import random from "./random.js";
+import random from "../random.js";
 
 const condition = "Find the greatest common divisor of given numbers.";
 const findTheLargestCommonDivisor = (numY, numX) => {
@@ -13,7 +13,7 @@ const generateQuestionAndCorrectAnswer = () => {
   let numY = random(1, 20);
   const question = `${numX} ${numY}`;
   const correctAnswer = findTheLargestCommonDivisor(numX, numY);
-  return [question, correctAnswer()];
+  return [question, String(correctAnswer)];
 };
 
 const run = () => {

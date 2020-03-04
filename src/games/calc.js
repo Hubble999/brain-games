@@ -1,5 +1,5 @@
 import playGame from "..";
-import random from "./random.js";
+import random from "../random.js";
 
 const condition = "What is the result of the expression?";
 const signs = "+-*";
@@ -7,8 +7,8 @@ const signs = "+-*";
 const generateQuestionAndCorrectAnswer = () => {
   const left = random(1, 20);
   const right = random(1, 20);
-  const randomSigns = signs[random(0, sings.length - 1)];
-  const question = `${left} ${randomSings} ${right}`;
+  const randomSigns = signs[random(0, signs.length - 1)];
+  const question = `${left} ${randomSigns} ${right}`;
   let correctAnswer;
   switch (randomSigns) {
     case "-":
@@ -21,7 +21,7 @@ const generateQuestionAndCorrectAnswer = () => {
       correctAnswer = left * right;
       break;
   }
-  return [question, correctAnswer];
+  return [question, String(correctAnswer)];
 };
 
 const run = () => {
