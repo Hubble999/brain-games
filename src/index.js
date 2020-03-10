@@ -14,12 +14,11 @@ const playGame = (condition, questionAndAnswer) => {
     if (answer === correctAnswer) {
       console.log("Correct!");
     } else {
-      const wrongAnswer = console.log(
-        `"${answer}" is wrong answer ;(. Correct answer was "${correctAnswer}".\nLet's try again, ${name}!`
-      );
-      return wrongAnswer;
+      console.log(
+        `"${answer}" is wrong answer ;(. Correct answer was "${correctAnswer}".\nLet's try again, ${name}!`);
     }
+    console.log(`Congratulations, ${name}!`);
   }
-  console.log(`Congratulations, ${name}!`);
 };
 export default playGame;
+

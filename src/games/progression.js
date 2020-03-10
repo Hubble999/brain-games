@@ -7,16 +7,16 @@ const generateQuestionAndCorrectAnswer = () => {
   const lengthProgression = 10;
   const stepProgression = random(2, 5);
   const startNum = random(0, 20);
-  const hideNumIndex = random(0, lengthProgression);
-  const expressionArr = [];
+  const hideNumIndex = random(0, lengthProgression - 1);
+  const progression = [];
   for (let i = 0; i < lengthProgression; i += 1) {
-    expressionArr.push(stepProgression * i + startNum);
+    progression.push(stepProgression * i + startNum);
   }
 
-  expressionArr[hideNumIndex] = "..";
+  progression[hideNumIndex] = "..";
   const correctAnswer = stepProgression * hideNumIndex + startNum;
 
-  const question = expressionArr.join(" ");
+  const question = progression.join(" ");
   return [question, String(correctAnswer)];
 };
 const run = () => {
