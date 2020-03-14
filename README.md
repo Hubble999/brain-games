@@ -9,7 +9,7 @@
 <h1>Brain-games</h1>
 
 
-  <h2>$ make install</h2>
+  $ make install
 
 
     $ Brain-even
