@@ -1,12 +1,16 @@
-<h1>Brain-games</h1>
-
-
-  <h2>$ make install</h2>
-
 <a href="https://codeclimate.com/github/karen9999/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/8538200fb1f0300ee051/maintainability" /></a>
 
 
 [![Build Status](https://travis-ci.com/travis-ci/travis-web.svg?branch=master)](https://travis-ci.com/travis-ci/travis-web)
+
+
+
+
+<h1>Brain-games</h1>
+
+
+   $ make install
+
 
     $ Brain-even
 
