@@ -11,7 +11,7 @@
 
 
 
-<h6>Getting started</h6>
+<h6> Getting started </h6>
    $ make install
 
 
